@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         show(number);
     }
 
+
     private  void show(int number){
         TextView resultView = (TextView) findViewById(R.id.display);
         resultView.setText(Integer.toString(number));
