@@ -54,6 +54,10 @@ public class MainActivity extends AppCompatActivity {
                 result /= number;
                 break;
 
+            case  R.id.buttonPercentage:
+                result /= number;
+                break;
+
             default:
                 assert false;
                 break;
