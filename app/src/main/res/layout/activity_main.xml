@@ -28,17 +28,20 @@
         android:textSize="@dimen/text_size"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:layout_centerInParent="true"
-        android:layout_toLeftOf="@+id/button8"
-        android:onClick="onNumberButtonClick"/>
+        android:onClick="onNumberButtonClick"
+        android:layout_alignTop="@+id/button8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
     <Button
         android:id="@+id/button8"
         android:text="8"
         android:textSize="@dimen/text_size"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:layout_centerInParent="true"
-        android:onClick="onNumberButtonClick"/>
+        android:onClick="onNumberButtonClick"
+        android:layout_alignTop="@+id/button9"
+        android:layout_toRightOf="@+id/button7"
+        android:layout_toEndOf="@+id/button7" />
     <Button
         android:id="@+id/button9"
         android:text="9"
@@ -166,9 +169,11 @@
         android:textSize="@dimen/text_size"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:layout_alignParentRight="true"
         android:layout_above="@+id/buttonMaltiplication"
-        android:onClick="onOperatorButtonClick"/>
+        android:onClick="onOperatorButtonClick"
+        android:layout_toRightOf="@+id/button9"
+        android:layout_alignRight="@+id/buttonMaltiplication"
+        android:layout_alignEnd="@+id/buttonMaltiplication" />
     <Button
         android:id="@+id/buttonEqual"
         android:text="＝"
